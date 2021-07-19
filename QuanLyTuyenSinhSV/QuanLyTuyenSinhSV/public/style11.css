@@ -1,0 +1,64 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#container{
+	height: auto;
+	width: 850px;
+	margin: 10px auto;
+
+
+}
+
+.head{
+	height: 50px;
+	
+	
+}
+
+
+.left{
+	
+	width: 40%;
+	
+	float: left;
+	
+
+}
+.header_left th{
+	display: inline-block;
+}
+.ma{
+	margin-left: 20px;
+	width: 200px;
+}
+.right{
+	
+	width: 60%;
+	
+	float: left;
+	text-align: center;
+}
+.title{
+  
+	height: 40px;
+}
+.title_left{
+	width: 650px;
+	
+	float: left;
+	
+}
+.title_left b{
+	margin-left: 250px;
+	text-align: center;
+
+}
+.title_right{
+	width: 200px;
+	
+	float: left;
+	
+}
+
+

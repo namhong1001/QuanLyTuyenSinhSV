@@ -1,0 +1,146 @@
+.menu1 ul{
+	position: absolute;
+	z-index: 999;
+}
+
+.break{
+	clear: both;
+	height: 10px;
+	width: 100%;
+	margin:auto;
+	border-bottom: 1px solid #EEEEEE;
+}
+
+.break90{
+	clear: both;
+	height: 10px;
+	width: 90%;
+	margin:auto;
+	border-bottom: 1px solid #EEEEEE;
+}
+
+.space20{
+	height: 20px;
+	width: 100%;
+}
+
+
+.row-item{
+	padding-left:15px;
+}
+
+.border-left{
+	border-left: 1px solid #EEEEEE;
+}
+
+.border-right{
+	border-right: 1px solid #EEEEEE;
+}
+
+a{
+	color:black;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.myheader{
+	background-color: #337AB7;
+	color:white;
+}
+
+.clear{
+	clear:both;
+}
+
+
+.progressbar {
+    counter-reset: step;
+    padding: 0;
+
+    /* for demo */
+    margin: 20px auto 0;
+    max-width: 800px;
+  }
+
+  .progressbar li {
+    float: left;
+    list-style: none;
+    position: relative;
+    text-align: center;
+    width: calc(100% / 5);
+
+  }
+
+  .progressbar li:before {
+    background: #fff;
+    border: 2px solid #bebebe;
+    border-radius: 50%;
+    color: #bebebe;
+    content: counter(step);
+    counter-increment: step;
+    display: block;
+    font-weight: 700;
+    height: 30px;
+    line-height: 27px;
+    margin: 0 auto 10px;
+    text-align: center;
+    width: 30px;
+
+
+  }
+
+  .progressbar li:after {
+    background: #5a5a5a;
+    content: '';
+    height: 3px;
+
+    position: absolute;
+    top: 15px;
+    width: 100%;
+    z-index: -1;
+    left: -43%;
+  }
+
+  .progressbar li:first-child:after {
+    content: none;
+  }
+
+  .progressbar li.active:after,
+  .progressbar li.complete:after {
+    background: #3aac5d;
+    z-index: 999;
+  }
+
+  .progressbar li.active:before,
+  .progressbar li.complete:before {
+    background: #3aac5d;
+    border-color: #3aac5d;
+    color: #fff;
+    z-index: 999;
+
+  }
+
+  .progressbar li.active {
+    color: #3aac5d;
+    font-weight: 600;
+
+
+  }
+  .l1{
+      z-index: 5;
+  }
+  .l2{
+    z-index: 1;
+
+}
+.l3{
+    z-index: 3;
+}
+.l4{
+    z-index: 2;
+}
+.l5{
+    z-index: 1;
+}

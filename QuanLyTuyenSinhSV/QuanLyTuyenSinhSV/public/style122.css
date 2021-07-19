@@ -1,0 +1,44 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#container{
+	height: auto;
+	width: 850px;
+	margin: 10px auto;
+
+
+}
+
+.head{
+	height: 40px;
+	
+	
+}
+h1{
+	color:crimson;
+}
+
+
+
+.left{
+	
+	width: 40%;
+	
+	float: left;
+	
+
+}
+.header_left th{
+	display: inline-block;
+}
+.ma{
+	margin-left: 20px;
+	width: 200px;
+}
+
+.title1{
+	
+	text-align: center;
+	height: 60px;
+}
